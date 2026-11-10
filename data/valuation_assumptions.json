@@ -1,12 +1,12 @@
 {
   "as_of": "2026-11-02",
   "currency_unit": "KRW billion unless stated otherwise",
-  "methodology": "Automotive FCFF DCF plus separately valued finance and other businesses; theoretical PER; residual income model.",
+  "methodology": "Automotive FCFF DCF plus separately valued finance and other businesses; normalized-EPS PER cross-check; residual income model.",
   "analyst_inputs": {
     "auto_dcf": {
       "wacc": 0.095,
       "terminal_growth": 0.02,
-      "terminal_roic": 0.10,
+      "terminal_roic": 0.1,
       "tax_rate": 0.24,
       "forecast_period": "2027-2031"
     },
@@ -18,12 +18,8 @@
     },
     "per": {
       "normalized_eps_krw": 61700,
-      "theoretical_per_x": 6.2,
-      "growth_period_eps_growth": 0.055,
-      "incremental_roe": 0.15,
-      "cost_of_equity": 0.11,
-      "terminal_roe": 0.08,
-      "terminal_growth": 0.02
+      "applied_per_x": 6.2,
+      "note": "Applied PER is an analyst cross-check input, not a peer-average multiple or company guidance. It is set below the DCF-implied multiple to reflect auto cyclicality, CAPEX and finance-service volatility."
     },
     "rim": {
       "beginning_controlling_equity_krw_billion": 120000,

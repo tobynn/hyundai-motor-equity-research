@@ -7,4 +7,4 @@
 `rim_schedule.csv`에는 지배주주 자본, 순이익, 자본비용, 잔여이익 계산이 들어 있다.
 
 
-`Hyundai_Motor_Equity_Research_Model.xlsx`에는 Summary, Forecast, Valuation, Sources 시트를 넣었다. 실제치와 분석 입력값을 분리했고, DCF·PER·RIM의 주요 산식을 확인할 수 있다.
+`Hyundai_Motor_Equity_Research_Model.xlsx`에는 Summary, Forecast, Valuation, Sources 시트를 넣었다. 실제치와 분석 입력값을 분리했고, DCF·정상화 PER·RIM의 주요 산식을 확인할 수 있다.

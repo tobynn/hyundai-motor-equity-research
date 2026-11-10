@@ -36,8 +36,8 @@ dcf_equity = auto_ev + finance_other_value + strategic_investments + auto_net_de
 dcf_price = dcf_equity * 1_000_000_000 / (shares_m * 1_000_000)
 
 normal_eps = 61_700.0
-theoretical_per = 6.2
-per_price = normal_eps * theoretical_per
+applied_per = 6.2
+per_price = normal_eps * applied_per
 
 # RIM uses controlling equity and a finance-adjusted sustainable ROE path.
 book_2026 = 120_000.0
@@ -80,9 +80,9 @@ values = {
         "price": round(dcf_price)
     },
     "PER": {
-        "method": "theoretical PER; no peer-average multiple applied",
+        "method": "normalized-EPS PER cross-check; no peer-average multiple applied",
         "normal_eps": normal_eps,
-        "theoretical_per": theoretical_per,
+        "applied_per": applied_per,
         "price": round(per_price)
     },
     "RIM": {

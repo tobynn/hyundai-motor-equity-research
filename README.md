@@ -29,18 +29,19 @@
 2. `research/valuation_method.md` — 금융부문 부채와 자동차 사업가치를 분리한 이유
 3. `research/peer_selection.md` — Toyota·Honda·Kia·GM·BMW를 같은 표에 넣되 평균 PER을 쓰지 않은 이유
 4. `research/capital_structure_and_sotp_bridge.md` — 금융부문 부채와 SOTP 브리지의 계정별 처리
-5. `data/valuation_assumptions.json` — 실제치와 분석 입력값의 구분
-6. `model/Hyundai_Motor_Equity_Research_Model.xlsx` — 연결된 DCF·PER·RIM 모델
-7. `model/forecast.csv` — 매출, 마진, 자동차 FCFF 전망
-8. `model/valuation_results.json` — DCF·PER·RIM 결과
-9. `report/FINAL_REPORT.md` — 산업, 실적, 전망, 밸류에이션 전문
+5. `research/forecast_driver_notes.md` — 판매·마진·CAPEX·운전자본 입력값과 수정 순서
+6. `data/valuation_assumptions.json` — 실제치와 분석 입력값의 구분
+7. `model/Hyundai_Motor_Equity_Research_Model.xlsx` — 연결된 DCF·PER·RIM 모델
+8. `model/forecast.csv` — 매출, 마진, 자동차 FCFF 전망
+9. `model/valuation_results.json` — DCF·PER·RIM 결과
+10. `report/FINAL_REPORT.md` — 산업, 실적, 전망, 밸류에이션 전문
 
 ## [평가 결과]
 
 | 방법 | 주당가치 | 사용 목적 |
 | --- | ---: | --- |
 | DCF | 410,900원 | 목표주가의 기준 |
-| 이론 PER | 382,500원 | 정상화 EPS와 재투자 가정 점검 |
+| 정상화 PER | 382,500원 | 정상화 EPS와 적용 배수 점검 |
 | RIM | 375,000원 | 지배주주 자본과 장기 ROE 점검 |
 
 DCF에서 금융부문 부채를 제조업 부채처럼 차감하지 않는 점이 핵심이다. 금융부문은 금융채권과 조달부채를 함께 보유한다. 금융자산을 빼고 부채만 차감하면 주주가치가 낮게 계산된다.

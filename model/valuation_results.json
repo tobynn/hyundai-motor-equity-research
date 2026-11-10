@@ -16,9 +16,9 @@
     "price": 410882
   },
   "PER": {
-    "method": "theoretical PER; no peer-average multiple applied",
+    "method": "normalized-EPS PER cross-check; no peer-average multiple applied",
     "normal_eps": 61700.0,
-    "theoretical_per": 6.2,
+    "applied_per": 6.2,
     "price": 382540
   },
   "RIM": {
