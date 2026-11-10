@@ -1,0 +1,37 @@
+{
+  "unit": "KRW billion except per-share values",
+  "reference_price": 287000,
+  "economic_shares_million": 210.7,
+  "DCF": {
+    "method": "automotive FCFF DCF plus finance-and-other equity bridge",
+    "wacc": 0.095,
+    "terminal_growth": 0.02,
+    "pv_explicit_fcff": 16013.4,
+    "pv_terminal_value": 44059.4,
+    "automotive_enterprise_value": 60072.8,
+    "finance_and_other_equity_value": 24000.0,
+    "strategic_investments": 13000.0,
+    "auto_net_debt_and_holding_adjustments": -10500.0,
+    "equity_value": 86572.8,
+    "price": 410882
+  },
+  "PER": {
+    "method": "theoretical PER; no peer-average multiple applied",
+    "normal_eps": 61700.0,
+    "theoretical_per": 6.2,
+    "price": 382540
+  },
+  "RIM": {
+    "method": "controlling equity with finance-adjusted sustainable ROE",
+    "begin_book_2026": 120000.0,
+    "cost_of_equity": 0.11,
+    "terminal_roe": 0.08,
+    "pv_explicit_ri": -10993.1,
+    "pv_terminal_ri": -29994.0,
+    "equity_value": 79012.8,
+    "price": 375002
+  },
+  "target_price": 412000,
+  "rating": "BUY",
+  "upside": 0.4355
+}

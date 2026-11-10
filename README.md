@@ -1,2 +1,56 @@
-# hyundai-motor-equity-research
-Hyundai Motor equity research: automotive FCFF DCF, theoretical PER, RIM, and DART disclosure monitoring.
+# [현대차 | 기업분석]
+
+> 005380 · 발간일 2026.11.10 · 실적 기준일 2026년 3분기 잠정실적 · 금액 KRW 십억원, 주가 원/주
+
+## [한눈에 보기]
+
+| 항목 | 내용 |
+| --- | --- |
+| 투자의견 | **BUY** |
+| 기준주가 | 287,000원 (2026.11.02 종가) |
+| 목표주가 | **412,000원** |
+| 상승여력 | 43.6% |
+| 목표주가 기준 | 자동차 FCFF DCF + 금융·기타 사업 가치 연결 |
+
+현대차는 제조업과 금융업이 연결된 회사다. 연결 차입금은 할부금융채권과 짝을 이루므로, 제조업의 순차입금처럼 DCF에서 일괄 차감하지 않는다. 이 저장소는 자동차 사업의 FCFF, 금융·기타 사업 가치, 전략 지분, 주식 수를 각각 분리해 계산한다.
+
+## [2026년 3분기 확인 사항]
+
+- 매출 45.11조원, 영업이익 2.68조원, 영업이익률 5.9%
+- 도매판매 92.1만대, 전년 동기 대비 11.3% 감소
+- HEV 판매 16.7만대, 전체 판매의 18.2%
+- 2026년 판매 목표를 415.8만대에서 400만대로 조정
+- 연결 영업이익률 가이던스를 5.5~6.5%로 조정
+- 자동차 부문 투자계획을 17.8조원에서 16조원으로 조정
+
+## [모델 읽는 순서]
+
+1. `data/actuals_and_sources.json` — 회사 공시와 IR에서 확인한 실제치와 출처
+2. `research/valuation_method.md` — 금융부문 부채와 자동차 사업가치를 분리한 이유
+3. `research/peer_selection.md` — Toyota·Honda·Kia·GM·BMW를 같은 표에 넣되 평균 PER을 쓰지 않은 이유
+4. `research/capital_structure_and_sotp_bridge.md` — 금융부문 부채와 SOTP 브리지의 계정별 처리
+5. `data/valuation_assumptions.json` — 실제치와 분석 입력값의 구분
+6. `model/Hyundai_Motor_Equity_Research_Model.xlsx` — 연결된 DCF·PER·RIM 모델
+7. `model/forecast.csv` — 매출, 마진, 자동차 FCFF 전망
+8. `model/valuation_results.json` — DCF·PER·RIM 결과
+9. `report/FINAL_REPORT.md` — 산업, 실적, 전망, 밸류에이션 전문
+
+## [평가 결과]
+
+| 방법 | 주당가치 | 사용 목적 |
+| --- | ---: | --- |
+| DCF | 410,900원 | 목표주가의 기준 |
+| 이론 PER | 382,500원 | 정상화 EPS와 재투자 가정 점검 |
+| RIM | 375,000원 | 지배주주 자본과 장기 ROE 점검 |
+
+DCF에서 금융부문 부채를 제조업 부채처럼 차감하지 않는 점이 핵심이다. 금융부문은 금융채권과 조달부채를 함께 보유한다. 금융자산을 빼고 부채만 차감하면 주주가치가 낮게 계산된다.
+
+## [공시 자동 갱신]
+
+GitHub Actions는 평일 한국시간 오전 8시 20분에 DART를 조회한다. 사업보고서, 반기보고서, 분기보고서, 영업잠정실적 가운데 새 공시가 나오면 접수번호와 원문 링크를 기록한다.
+
+실제치, 전망, DCF·RIM·PER, 목표주가는 자동으로 바꾸지 않는다. 공시 원문과 회사 IR 자료를 대조한 뒤 모델 입력값을 수정한다. 설정 방법은 [AUTOMATION.md](research/AUTOMATION.md)에 정리했다.
+
+## [면책]
+
+이 저장소는 학습과 분석 기록을 위한 자료다. 투자 판단과 거래 책임은 이용자에게 있다.

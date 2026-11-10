@@ -1,0 +1,40 @@
+name: DART earnings disclosure watch
+
+on:
+  schedule:
+    # 08:20 KST on weekdays. GitHub may delay scheduled runs.
+    - cron: "20 23 * * 0-4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dart-disclosure-watch
+  cancel-in-progress: false
+
+jobs:
+  update-disclosure-log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Detect new earnings disclosures
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python scripts/watch_disclosures.py
+      - name: Validate disclosure log
+        run: python scripts/validate_disclosure_watch.py
+      - name: Commit new disclosure record
+        run: |
+          if git diff --quiet; then
+            echo "No new disclosure record to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/disclosure_watch.json report/DISCLOSURE_UPDATE_LOG.md
+          git commit -m "data: record new DART earnings disclosure"
+          git push

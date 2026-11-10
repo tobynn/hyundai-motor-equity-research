@@ -1,0 +1,15 @@
+{
+  "company": "현대자동차",
+  "stock_code": "005380",
+  "corp_code": "00164742",
+  "last_update_utc": null,
+  "filings": [
+    {
+      "receipt_number": "20261029800228",
+      "receipt_date": "20261029",
+      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "filer": "현대자동차",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800228"
+    }
+  ]
+}

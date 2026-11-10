@@ -1,0 +1,62 @@
+{
+  "company": "Hyundai Motor Company",
+  "ticker": "005380",
+  "currency": "KRW billion unless stated otherwise",
+  "as_of": "2026-11-02",
+  "q3_2026_tentative_results": {
+    "revenue": 45110.247,
+    "operating_profit": 2677.232,
+    "operating_margin": 0.0593,
+    "net_profit": 1931.746,
+    "controlling_net_profit": 1704.370,
+    "wholesale_units": 920710,
+    "hev_units": 167414,
+    "hev_mix": 0.182,
+    "electrified_mix": 0.267
+  },
+  "nine_months_2026": {
+    "revenue": 140264.461,
+    "operating_profit": 8042.806,
+    "controlling_net_profit": 6560.567
+  },
+  "fy2025": {
+    "revenue": 186254.0,
+    "operating_profit": 11467.9,
+    "net_profit": 10364.8,
+    "controlling_equity": 115446.5,
+    "total_equity": 127648.2
+  },
+  "guidance": {
+    "fy2026_wholesale_units": 4000000,
+    "fy2026_revenue_growth": "1% to 2%",
+    "fy2026_operating_margin": "5.5% to 6.5%",
+    "automotive_investment": 16000.0,
+    "fcf_guidance": "KRW -1.0tn to +0.5tn"
+  },
+  "sources": [
+    {
+      "title": "Hyundai Motor Q3 2026 Business Results",
+      "url": "https://www.hyundai.com/worldwide/en/company/ir/notices/view-0000000382-en-10-1-",
+      "accessed": "2026-11-10",
+      "use": "Q3 and nine-month income statement"
+    },
+    {
+      "title": "Hyundai Motor Announces 2026 Q3 Business Results",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001298",
+      "accessed": "2026-11-10",
+      "use": "volume, HEV mix and revised guidance"
+    },
+    {
+      "title": "Hyundai Motor 2025 Consolidated Audit Report",
+      "url": "https://opendart.fss.or.kr/xbrl/viewer/main.do?lang=en&rcpNo=20260318001394",
+      "accessed": "2026-11-10",
+      "use": "FY2025 equity and financial-statement cross-check"
+    },
+    {
+      "title": "Hyundai Motor price history",
+      "url": "https://de.investing.com/equities/hyundai-motor-historical-data",
+      "accessed": "2026-11-10",
+      "use": "2026-11-02 reference price"
+    }
+  ]
+}
