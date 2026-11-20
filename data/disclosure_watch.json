@@ -2,8 +2,22 @@
   "company": "현대자동차",
   "stock_code": "005380",
   "corp_code": "00164742",
-  "last_update_utc": null,
+  "last_update_utc": "2026-11-20T05:43:17Z",
   "filings": [
+    {
+      "receipt_number": "20261116001437",
+      "receipt_date": "20261116",
+      "report_name": "분기보고서 (2026.09)",
+      "filer": "현대자동차",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001437"
+    },
+    {
+      "receipt_number": "20261102800520",
+      "receipt_date": "20261102",
+      "report_name": "영업(잠정)실적(공정공시)              ",
+      "filer": "현대자동차",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800520"
+    },
     {
       "receipt_number": "20261029800228",
       "receipt_date": "20261029",
