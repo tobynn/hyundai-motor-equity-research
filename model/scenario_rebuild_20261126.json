@@ -1,0 +1,159 @@
+{
+  "status": "illustrative scenario; not an investment rating or target",
+  "unit": "KRW bn except shares and KRW/share",
+  "scenario_valuation_date": "2026-09-30 for assets, illustrative year-end discounting; not a single current valuation date",
+  "forecast": [
+    {
+      "year": 2027,
+      "revenue": 145500.0,
+      "ebit_margin": 0.055,
+      "ebit": 8002.5,
+      "tax": 0.24,
+      "nopat": 6081.9,
+      "da": 4000.0,
+      "capex": 8500.0,
+      "delta_wc": 500.0,
+      "fcff": 1081.8999999999996,
+      "present_value": 988.036529680365
+    },
+    {
+      "year": 2028,
+      "revenue": 151500.0,
+      "ebit_margin": 0.06,
+      "ebit": 9090.0,
+      "tax": 0.24,
+      "nopat": 6908.4,
+      "da": 4200.0,
+      "capex": 8500.0,
+      "delta_wc": 450.0,
+      "fcff": 2158.3999999999996,
+      "present_value": 1800.1292716999226
+    },
+    {
+      "year": 2029,
+      "revenue": 157000.0,
+      "ebit_margin": 0.062,
+      "ebit": 9734.0,
+      "tax": 0.24,
+      "nopat": 7397.84,
+      "da": 4400.0,
+      "capex": 8000.0,
+      "delta_wc": 450.0,
+      "fcff": 3347.84,
+      "present_value": 2549.8952297524083
+    },
+    {
+      "year": 2030,
+      "revenue": 162000.0,
+      "ebit_margin": 0.061,
+      "ebit": 9882.0,
+      "tax": 0.24,
+      "nopat": 7510.32,
+      "da": 4600.0,
+      "capex": 7800.0,
+      "delta_wc": 400.0,
+      "fcff": 3910.3199999999997,
+      "present_value": 2719.91807129494
+    },
+    {
+      "year": 2031,
+      "revenue": 167000.0,
+      "ebit_margin": 0.06,
+      "ebit": 10020.0,
+      "tax": 0.24,
+      "nopat": 7615.2,
+      "da": 4800.0,
+      "capex": 7800.0,
+      "delta_wc": 400.0,
+      "fcff": 4215.200000000001,
+      "present_value": 2677.611654696103
+    }
+  ],
+  "dcf": {
+    "wacc": 0.095,
+    "growth": 0.02,
+    "incremental_roic": 0.1,
+    "pv_explicit": 10735.590757123739,
+    "pv_terminal": 52630.75659720021,
+    "vehicle_ev": 63366.34735432395,
+    "finance_parent_book_proxy": 23740.274,
+    "other_parent_book_proxy": 7530.495,
+    "group_equity_elimination_proxy": -2635.414,
+    "vehicle_cash": 8253.939,
+    "vehicle_borrowings": 7673.85,
+    "associates_proxy": 30720.154000000006,
+    "equity": 123301.94535432395,
+    "common_price_equal_share_claim": 470911.14099031256
+  },
+  "shares": {
+    "common": 202418958,
+    "preferred": 59418010,
+    "equal_claim_total": 261836968
+  },
+  "per": {
+    "earnings_2027_assumption": 7600.0,
+    "eps_equal_claim_proxy": 29025.69510352717,
+    "multiples": {
+      "6x": 174154.17062116304,
+      "8x": 232205.56082821736,
+      "10x": 290256.9510352717
+    },
+    "note": "Illustrative multiple scenarios; not observed peer multiples."
+  },
+  "rim": {
+    "opening_2026e": 117567.40957999999,
+    "cost_of_equity": 0.11,
+    "payout": 0.45,
+    "terminal_roe": 0.08,
+    "terminal_retention": 0.25,
+    "terminal_payout": 0.75,
+    "forecast": [
+      {
+        "year": 2027,
+        "opening_book": 117567.40957999999,
+        "net_income": 7600.0,
+        "residual_income": -5332.415053799999,
+        "pv": -4803.977525945945
+      },
+      {
+        "year": 2028,
+        "opening_book": 121747.40957999999,
+        "net_income": 8200.0,
+        "residual_income": -5192.215053799999,
+        "pv": -4214.118215891565
+      },
+      {
+        "year": 2029,
+        "opening_book": 126257.40957999999,
+        "net_income": 8800.0,
+        "residual_income": -5088.315053799999,
+        "pv": -3720.53211268244
+      },
+      {
+        "year": 2030,
+        "opening_book": 131097.40957999998,
+        "net_income": 9300.0,
+        "residual_income": -5120.715053799997,
+        "pv": -3373.1736157086384
+      },
+      {
+        "year": 2031,
+        "opening_book": 136212.40957999998,
+        "net_income": 9700.0,
+        "residual_income": -5283.365053799998,
+        "pv": -3135.4200077957867
+      }
+    ],
+    "pv_terminal": -28000.499399499906,
+    "equity": 70319.68870247572,
+    "price_equal_share_claim": 268562.87421750056
+  },
+  "warnings": [
+    "Segment values before consolidation; eliminating equity adjustment may not map fully to owners.",
+    "Vehicle associates proxy assumes all five investments are included in vehicle segment; verify overlap.",
+    "Vehicle cash includes potentially restricted and operational cash; lease/pension and NCI not fully allocated.",
+    "Preferred/common equal claims ignore economic rights, control premium and market discounts.",
+    "Standalone capital forecast and terminal ROIC are analyst assumptions, not company guidance.",
+    "Asset marks are 2026-09-30; investment decisions require updated 2026-11-26 market values and share reconciliation."
+  ]
+}
