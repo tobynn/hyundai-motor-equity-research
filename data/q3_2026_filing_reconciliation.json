@@ -1,0 +1,44 @@
+{
+  "filing_date": "2026-11-16",
+  "period": "2026-09-30",
+  "filing_receipt": "20261116001437",
+  "units": "KRW billion except shares",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001437",
+  "consolidated": {
+    "parent_equity": 116222.002,
+    "non_controlling_interests": 12573.396,
+    "current_finance_receivables": 57099.342,
+    "noncurrent_finance_receivables": 73525.922
+  },
+  "segments_before_intercompany_elimination": {
+    "finance_assets": 213882.156,
+    "finance_liabilities": 190118.52,
+    "finance_equity_attributable_to_owners": 23740.274,
+    "vehicle_equity_method_investments": 35847.785,
+    "finance_equity_method_investments": 2378.892,
+    "total_equity_adjustment": -2635.414
+  },
+  "kia": {
+    "shares": 137318251,
+    "stake_pct": 35.17,
+    "book_value": 22045.085,
+    "market_price_2026_09_30": 112800,
+    "market_value": 15489.499
+  },
+  "share_classes": {
+    "common_issued": 203466492,
+    "common_treasury_or_group_held": 1047534,
+    "pref1_issued": 22839037,
+    "pref2_issued": 34257047,
+    "pref3_issued": 2321926,
+    "preferred_treasury": 0,
+    "allocation_note": "Class rights and parent/group-held shares require further reconciliation; sum is not a fully diluted common-share denominator."
+  },
+  "disclosure_page_refs": {
+    "balance_sheet": "42–43",
+    "associates": "71–76",
+    "financial_receivables": "77",
+    "share_capital": "99–102",
+    "segment": "134–138"
+  }
+}
