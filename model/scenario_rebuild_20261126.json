@@ -129,10 +129,16 @@
   "per": {
     "earnings_2027_assumption": 7600.0,
     "eps_equal_claim_proxy": 29025.69510352717,
-    "multiples": {
+    "eps_market_weighted_proxy": 32291.861857371056,
+    "multiples_equal_claim": {
       "6x": 174154.17062116304,
       "8x": 232205.56082821736,
       "10x": 290256.9510352717
+    },
+    "multiples_market_weighted": {
+      "6x": 193751.17114422633,
+      "8x": 258334.89485896844,
+      "10x": 322918.61857371056
     },
     "note": "Illustrative multiple scenarios; not observed peer multiples."
   },
