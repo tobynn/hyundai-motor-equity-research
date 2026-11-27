@@ -1,0 +1,90 @@
+{
+  "status": "research scenario; not a final target",
+  "price_date": "2026-11-26",
+  "valuation_date": "2026-12-31 estimated",
+  "shares": {
+    "ordinary": 202418958,
+    "preferred_1": 22839037,
+    "preferred_2": 34257047,
+    "preferred_3": 2321926,
+    "sum": 261836968,
+    "counts_as_of": "2026-09-30"
+  },
+  "preferred": {
+    "pref1_extra_dividend_krw_per_year": 50.0,
+    "discount_rate": 0.11,
+    "pv_increment_per_pref1": 454.54545454545456,
+    "other_classes_extra_assumed_zero": true,
+    "assumption": "Equal participation in residual earnings and distributions, no voting-control premium, minimum preferred thresholds non-binding; not a legal claim valuation."
+  },
+  "rim": {
+    "equity_bn": 70319.68870247572,
+    "common_price": 268523.22595647065,
+    "pref1_price": 268977.7714110161
+  },
+  "per": {
+    "earnings_2027_bn": 7600.0,
+    "common_eps_proxy": 29021.33379481388,
+    "kia_price_20261126": 93700,
+    "kia_eps_2027_analyst": 21311,
+    "kia_analyst_date": "2026-11-02",
+    "kia_2027_forward_multiple": 4.396790389939468,
+    "scenario_common_price": 127600.72153226317,
+    "source": "https://imfnsec.tistory.com/229",
+    "limitation": "One related-company observation, analyst forecast date differs from valuation date; no automatic target multiple."
+  },
+  "dcf": {
+    "old_scenario_price_market_weighted": 506844.0425278749,
+    "status": "unresolved segment allocation, lease/NCI and equity-method overlap; must not be used as final target"
+  },
+  "book_and_forecast": {
+    "opening_2026e": 117567.40957999999,
+    "cost_of_equity": 0.11,
+    "payout": 0.45,
+    "terminal_roe": 0.08,
+    "terminal_retention": 0.25,
+    "terminal_payout": 0.75,
+    "forecast": [
+      {
+        "year": 2027,
+        "opening_book": 117567.40957999999,
+        "net_income": 7600.0,
+        "residual_income": -5332.415053799999,
+        "pv": -4803.977525945945
+      },
+      {
+        "year": 2028,
+        "opening_book": 121747.40957999999,
+        "net_income": 8200.0,
+        "residual_income": -5192.215053799999,
+        "pv": -4214.118215891565
+      },
+      {
+        "year": 2029,
+        "opening_book": 126257.40957999999,
+        "net_income": 8800.0,
+        "residual_income": -5088.315053799999,
+        "pv": -3720.53211268244
+      },
+      {
+        "year": 2030,
+        "opening_book": 131097.40957999998,
+        "net_income": 9300.0,
+        "residual_income": -5120.715053799997,
+        "pv": -3373.1736157086384
+      },
+      {
+        "year": 2031,
+        "opening_book": 136212.40957999998,
+        "net_income": 9700.0,
+        "residual_income": -5283.365053799998,
+        "pv": -3135.4200077957867
+      }
+    ],
+    "pv_terminal": -28000.499399499906,
+    "equity": 70319.68870247572,
+    "price_equal_share_claim": 268562.87421750056,
+    "price_market_weighted_claims": 298783.37808337924
+  },
+  "reference": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001437"
+}
