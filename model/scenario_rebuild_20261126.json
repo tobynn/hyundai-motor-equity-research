@@ -1,7 +1,7 @@
 {
   "status": "illustrative scenario; not an investment rating or target",
   "unit": "KRW bn except shares and KRW/share",
-  "scenario_valuation_date": "2026-09-30 for assets, illustrative year-end discounting; not a single current valuation date",
+  "scenario_valuation_date": "2026-09-30 accounts, 2026-11-26 listed marks, year-end discounting assumption",
   "forecast": [
     {
       "year": 2027,
@@ -81,14 +81,50 @@
     "group_equity_elimination_proxy": -2635.414,
     "vehicle_cash": 8253.939,
     "vehicle_borrowings": 7673.85,
-    "associates_proxy": 30720.154000000006,
-    "equity": 123301.94535432395,
-    "common_price_equal_share_claim": 470911.14099031256
+    "associates_proxy_9m": 30720.154000000006,
+    "equity_9m_marks": 123301.94535432395,
+    "common_price_equal_share_claim": 470911.14099031256,
+    "listed_prices_20261126": [
+      93700,
+      67000,
+      349000,
+      49000,
+      6690
+    ],
+    "listed_holdings_20260930": [
+      137318251,
+      23327400,
+      8664334,
+      6893596,
+      13707293
+    ],
+    "listed_values_20261126": [
+      12866.7201187,
+      1562.9358,
+      3023.852566,
+      337.786204,
+      91.70179017
+    ],
+    "associates_proxy_20261126": 26705.685478870004,
+    "equity_20261126_marks": 119287.47683319394,
+    "common_price_using_market_weighted_claims": 506844.0425278749
   },
   "shares": {
     "common": 202418958,
     "preferred": 59418010,
-    "equal_claim_total": 261836968
+    "equal_claim_total": 261836968,
+    "pref_counts": [
+      22839037,
+      34257047,
+      2321926
+    ],
+    "pref_prices_20261126": [
+      140200,
+      146000,
+      140600
+    ],
+    "common_price_20261126": 259000,
+    "weighted_shares": 235353416.08880308
   },
   "per": {
     "earnings_2027_assumption": 7600.0,
@@ -146,14 +182,15 @@
     ],
     "pv_terminal": -28000.499399499906,
     "equity": 70319.68870247572,
-    "price_equal_share_claim": 268562.87421750056
+    "price_equal_share_claim": 268562.87421750056,
+    "price_market_weighted_claims": 298783.37808337924
   },
   "warnings": [
     "Segment values before consolidation; eliminating equity adjustment may not map fully to owners.",
     "Vehicle associates proxy assumes all five investments are included in vehicle segment; verify overlap.",
     "Vehicle cash includes potentially restricted and operational cash; lease/pension and NCI not fully allocated.",
-    "Preferred/common equal claims ignore economic rights, control premium and market discounts.",
+    "Market-weighted claims assume observed preferred/common price ratios persist, a circular and uncertain allocation assumption.",
     "Standalone capital forecast and terminal ROIC are analyst assumptions, not company guidance.",
-    "Asset marks are 2026-09-30; investment decisions require updated 2026-11-26 market values and share reconciliation."
+    "Accounts and holdings are 2026-09-30; five market marks and preferred ratios are 2026-11-26; discounting is 2026 year-end."
   ]
 }

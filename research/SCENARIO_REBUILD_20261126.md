@@ -2,6 +2,12 @@
 
 **연구용 시나리오이며 목표주가와 투자의견이 아니다.** 평가 기준일이 일치하지 않고, 부문별 연결조정과 주식 종류별 권리 배분을 확정하지 못했다. 기존 BUY·412,000원도 철회 상태다. 계산은 [Python 스크립트](../scripts/rebuild_scenario_20261126.py)와 [결과 JSON](../model/scenario_rebuild_20261126.json)으로 재현한다.
 
+**11월 26일 종가 보완:** 아래의 9월 말 시가를 사용한 기준 사례와 별도로, 기아 93,700원·현대건설 67,000원·현대오토에버 349,000원·현대위아 49,000원·현대차증권 6,690원을 적용한 시나리오를 추가했다. 다섯 회사의 주식 수는 9월 말 공시 수량으로, 이후 처분·취득이 없다고 가정한다. 각 시가 합계는 17,883.0십억원이며, 공시 연결 장부가 27,025.1을 차감해 차량부문 지분법 장부가 35,847.8에 대체 반영하면 26,705.7이다. 부문별 보유 주체와 연결조정이 확정된 수치는 아니다.
+
+보통주 259,000원과 현대차우 140,200원·현대차2우B 146,000원·현대차3우B 140,600원의 당일 종가비율을 그대로 유지한다고 가정하면 경제적 가중 주식 수는 약 235,353,416주다. 가격비율은 시장의 현재 평가를 배분에 사용한 것이며 내재적 권리의 확정 비율이 아니다. 이 조건의 DCF 주당 시나리오는 약 **506,844원**, RIM은 약 **298,783원**이다. 동등권리와 다른 결과가 나오는 이유는 우선주 할인 가정이다. 계정은 9월 말, 주가는 11월 26일, 현금흐름 할인 시작은 2026년 말이므로 단일 평가일의 최종 목표가로 제시하지 않는다.
+
+종가 출처: [기아](https://markets.hankyung.com/stock/000270/chart), [현대건설](https://kr.investing.com/equities/hyundai-engineering---construction-historical-data), [현대오토에버](https://kr.investing.com/equities/hyundai-autoever-corp-historical-data), [현대위아](https://kr.investing.com/equities/hyundai-wia-historical-data), [현대차증권](https://kr.investing.com/equities/hmc-invest-sec-historical-data), [현대차](https://kr.investing.com/equities/hyundai-motor-historical-data), [현대차우](https://markets.hankyung.com/stock/005385/chart), [현대차2우B](https://kr.investing.com/equities/hyundai-motor-co-pref-historical-data), [현대차3우B](https://todaystk.kr/stock/005389/price).
+
 ## [실제치와 전망치]
 
 실제치의 기준은 2026년 9월 말이다. 금융부문 지배주주 귀속 자본 23조 7,403억원, 차량부문 지분법 투자 35조 8,478억원은 내부거래 조정 전 금액이다. 연결 지배주주 자본 116조 2,220억원이다. 보통주 발행 203,466,492주에서 공시 자기주식 등 1,047,534주를 차감하면 202,418,958주다. 우선주 세 종류 발행 합계는 59,418,010주다. 원문 계정과 기준은 [분기보고서 대조](Q3_2026_FILINGS_RECONCILIATION.md)에 있다.
