@@ -1,0 +1,35 @@
+{
+  "status": "research only; TTM approximate; not a target multiple",
+  "rows": [
+    {
+      "name": "현대차",
+      "ticker": "005380",
+      "close": 259000,
+      "fy2025_eps": 36088,
+      "nine_m_2026_eps": 25022,
+      "nine_m_2025_eps": 32280,
+      "split_factor": 1,
+      "role": "대상기업",
+      "earnings_source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001437",
+      "price_source": "https://markets.hankyung.com/stock/005380/chart",
+      "date": "2026-11-26",
+      "ttm_eps_approx": 28830.0,
+      "ttm_per_approx": 8.98
+    },
+    {
+      "name": "기아",
+      "ticker": "000270",
+      "close": 93700,
+      "fy2025_eps": 19382,
+      "nine_m_2026_eps": 14013,
+      "nine_m_2025_eps": 15564,
+      "split_factor": 1,
+      "role": "직접 비교",
+      "earnings_source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001529",
+      "price_source": "https://markets.hankyung.com/stock/000270/chart",
+      "date": "2026-11-26",
+      "ttm_eps_approx": 17831.0,
+      "ttm_per_approx": 5.25
+    }
+  ]
+}
