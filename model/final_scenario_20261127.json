@@ -1,0 +1,103 @@
+{
+  "status": "conditional analyst estimate; allocation and market data are assumptions, not verified facts",
+  "price_date": "2026-11-26",
+  "account_date": "2026-09-30",
+  "discount_anchor": "2026-12-31",
+  "horizon": "2026-12-31; approximately one month from 2026-11-26",
+  "reference_price": 259000,
+  "dcf": {
+    "wacc": 0.095,
+    "growth": 0.02,
+    "incremental_roic": 0.1,
+    "vehicle_ev": 63366.34735432395,
+    "finance_parent_book": 23740.274,
+    "other_parent_book": 7530.495,
+    "owners_elimination_proxy": -15217.671000000017,
+    "vehicle_cash": 8253.939,
+    "vehicle_debt": 7673.85,
+    "vehicle_nci": 0.005,
+    "vehicle_associates_book": 35847.785,
+    "kia_book_proxy": 22045.085,
+    "kia_holding": 137318251,
+    "kia_price": 93700,
+    "kia_market": 12866.7201187,
+    "associates_after_kia_substitution": 26669.420118700004,
+    "equity": 106668.94947302392,
+    "common_price": 405927.69291947625,
+    "sensitivity": [
+      {
+        "wacc": 0.085,
+        "growth": 0.015,
+        "common_price": 444479.5093246136
+      },
+      {
+        "wacc": 0.085,
+        "growth": 0.02,
+        "common_price": 448890.42923383566
+      },
+      {
+        "wacc": 0.085,
+        "growth": 0.025,
+        "common_price": 453875.8807278722
+      },
+      {
+        "wacc": 0.095,
+        "growth": 0.015,
+        "common_price": 404167.1966965609
+      },
+      {
+        "wacc": 0.095,
+        "growth": 0.02,
+        "common_price": 405927.6929194763
+      },
+      {
+        "wacc": 0.095,
+        "growth": 0.025,
+        "common_price": 407808.18561696936
+      },
+      {
+        "wacc": 0.105,
+        "growth": 0.015,
+        "common_price": 373023.1065633377
+      },
+      {
+        "wacc": 0.105,
+        "growth": 0.02,
+        "common_price": 373267.444194343
+      },
+      {
+        "wacc": 0.105,
+        "growth": 0.025,
+        "common_price": 373432.3720952715
+      }
+    ]
+  },
+  "rim": {
+    "common_price": 267584.0093060816
+  },
+  "per": {
+    "common_price": 127156.04899913732,
+    "peer_name": "Kia",
+    "forward_per": 4.396790389939468
+  },
+  "target_price": 406000,
+  "upside_price_only": 0.5675675675675675,
+  "rating": "BUY",
+  "rating_rule": "price-only upside >=15% BUY, <=-15% SELL, otherwise HOLD; horizon 2026-12-31, not 12 months",
+  "preferred_claim": {
+    "pref1_extra_dividend_krw_per_year": 50.0,
+    "discount_rate": 0.11,
+    "pv_increment_per_pref1": 454.54545454545456,
+    "other_classes_extra_assumed_zero": true,
+    "assumption": "Equal participation in residual earnings and distributions, no voting-control premium, minimum preferred thresholds non-binding; not a legal claim valuation."
+  },
+  "warnings": [
+    "Q3 segment book and 26 Nov prices are mixed with a year-end DCF discount anchor; Q4 equity bridge omitted.",
+    "Consolidated Kia carrying amount is used as a proxy for its vehicle-segment amount; unverified overlap.",
+    "Owners elimination proxy includes intra-group ownership and other consolidation effects; not a fair-value adjustment.",
+    "Vehicle EV uses pre-consolidation EBIT and externally reported vehicle sales, an approximate mixture.",
+    "Finance and other parent equity at 1.0x are not valuation outcomes; vehicle financial assets besides cash are omitted.",
+    "Forecast capex is an accounting scenario and not company investment plan; terminal value dominates.",
+    "Preferred allocation assumes equal residual participation, no voting premium and preferred minimums are non-binding."
+  ]
+}

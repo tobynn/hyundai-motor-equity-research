@@ -1,21 +1,23 @@
 {
-  "status": "research scenarios, not a final target",
+  "status": "conditional analyst estimate; allocation and market data are assumptions, not verified facts",
   "reference_price": 259000,
   "reference_date": "2026-11-26",
-  "valuation_date": "2026-12-31 estimate",
+  "valuation_date": "2026-12-31",
+  "horizon": "2026-12-31; approximately one month from 2026-11-26",
   "DCF": {
-    "price": null,
-    "method": "unresolved finance and associate overlap"
+    "price": 405928,
+    "method": "SOTP with owner elimination and Kia-only substitution proxies"
   },
   "PER": {
-    "price": 127601,
-    "method": "single Kia peer FY2027 analyst estimate; sensitivity only"
+    "price": 127156,
+    "method": "single Kia forward observation; cross-check only"
   },
   "RIM": {
-    "price": 268523,
-    "method": "estimated residual income; preferred dividend allocation"
+    "price": 267584,
+    "method": "RIM with equal participation and extra preferred dividend"
   },
-  "target_price": null,
-  "rating": "under review",
-  "detail": "model/common_claim_rebuild_20261127.json"
+  "target_price": 406000,
+  "rating": "BUY",
+  "upside_price_only": 0.5675675675675675,
+  "detail": "model/final_scenario_20261127.json"
 }
